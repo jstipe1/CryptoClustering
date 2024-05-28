@@ -2,6 +2,14 @@
 
 __Purpose__: In this Challenge we apply our understanding of the K-means algorithm and principal component analysis (PCA) to classify cryptocurrencies according to their price fluctuations across various timeframes. 
 
+  __Step 1__: Scale the data utilizing the StandardScaler()  
+  __Step 2__: Use the elbow method on the scaled data to find the best value for K  
+  __Step 3__: Initialize, fit, and predict based on the K-means model, then plot the results  
+  __Step 4__: Using the scaled data set perform a PCA and reduce the features to three principal components  
+  __Step 5__: Use the elbow method on the PCA data to find the best value for K  
+  __Step 6__: Initialize, fit, and predict based on the K-means model on the PCA data, then plot the results  
+  __Step 7__: Determine the Weights of Each Feature on Each Principal Component
+
 __Intalls__: A number of installations are needed (and provided) to run the code necessary to complete this project  
   
   import pandas as pd  
@@ -15,5 +23,6 @@ __Intalls__: A number of installations are needed (and provided) to run the code
 
 
 
-__Resources__: Module 11 activities were used as reference to complete this challenge
+__Resources__:
+[README.md formatting] (https://medium.com/analytics-vidhya/writing-github-readme-e593f278a796)  
 
