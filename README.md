@@ -4,7 +4,7 @@ __Purpose__: In this Challenge we apply our understanding of the K-means algorit
 
   &nbsp; &nbsp; __Step 1__: Scale the data utilizing the StandardScaler()  
   &nbsp; &nbsp; __Step 2__: Use the elbow method on the scaled data to find the best value for K  
-  nbsp; &nbsp;__Step 3__: Initialize, fit, and predict based on the K-means model, then plot the results  
+  &nbsp; &nbsp;__Step 3__: Initialize, fit, and predict based on the K-means model, then plot the results  
   &nbsp; &nbsp;__Step 4__: Using the scaled data set perform a PCA and reduce the features to three principal components  
   &nbsp; &nbsp;__Step 5__: Use the elbow method on the PCA data to find the best value for K  
   &nbsp; &nbsp;__Step 6__: Initialize, fit, and predict based on the K-means model on the PCA data, then plot the results  
